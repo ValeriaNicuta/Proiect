@@ -2,6 +2,7 @@
 #include<math.h>
 using namespace std;
 
+//sa pun for-urile intr-o functie
 int main()
 {
     int i,j,n,ok;
