@@ -18,9 +18,12 @@ void verificare(int n){
 
 int main()
 {
-    int n;
+    int n, m;
     n=1289;
+    m=3000;
     cout<<"Patratele care formeaza numarul n: "<<"\n";
-   verificare(n);
+    verificare(n);
+    cout<<"Patratele care formeaza numarul m: "<<"\n";
+    verificare(m);
     return 0;
 }
