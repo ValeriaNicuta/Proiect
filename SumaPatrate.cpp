@@ -21,9 +21,9 @@ int main()
     int n, m;
     n=1289;
     m=3000;
-    cout<<"Patratele care formeaza numarul n: "<<"\n";
+    cout<<"Patratele care formeaza numarul "<<n<<"\n";
     verificare(n);
-    cout<<"Patratele care formeaza numarul m: "<<"\n";
+    cout<<"Patratele care formeaza numarul "<<m<<"\n";
     verificare(m);
     return 0;
 }
