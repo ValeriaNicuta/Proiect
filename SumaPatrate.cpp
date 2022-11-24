@@ -19,8 +19,7 @@ void verificare(int n){
 int main()
 {
     int n;
-    cout<<"Dati numarul pe care doriti sa-l cercetati: ";
-    cin>>n;
+    n=128;
     cout<<"Patratele care formeaza numarul n: "<<"\n";
    verificare(n);
     return 0;
