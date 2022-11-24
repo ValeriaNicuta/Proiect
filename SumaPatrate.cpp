@@ -19,7 +19,7 @@ void verificare(int n){
 int main()
 {
     int n;
-    n=128;
+    n=1289;
     cout<<"Patratele care formeaza numarul n: "<<"\n";
    verificare(n);
     return 0;
