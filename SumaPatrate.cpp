@@ -6,15 +6,16 @@ void verificare(int n){
     ok=0;
     for(i=1;i<n;i++){
         for(j=1;j<n;j++){
-            if((i*i)+(j*j)==n)
-                cout<<i<<" "<<j<<"\n";
-            else
-                ok=1;
+            if((i*i)+(j*j)==n){
+               cout << i * i << "(" << i << ")" << " " << j * j << "(" << j << ")" << "\n";
+               ok=1;
+            }
         }
     }
-    if(ok==1)
-        cout<<"Numarul nu poate constitui suma a doua patrate";
+    if(ok==0)
+    cout<<"Numarul nu poate constitui suma a doua patrate";
 }
+
 int main()
 {
     int n;
