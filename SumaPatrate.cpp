@@ -2,13 +2,9 @@
 #include<math.h>
 using namespace std;
 
-int main()
-{
-    int i,j,n,ok;
+void verificare(int n){
+    int i,j,ok;
     ok=0;
-    cout<<"Dati numarul pe care doriti sa-l cercetati: ";
-    cin>>n;
-    cout<<"Patratele care formeaza numarul n: "<<"\n";
     for(i=1;i<n;i++){
         for(j=1;j<n;j++){
             if(pow(i,2)+pow(j,2)==n)
@@ -19,5 +15,13 @@ int main()
     }
     if(ok==1)
         cout<<"Numarul nu poate constitui suma a doua patrate";
+}
+int main()
+{
+    int n;
+    cout<<"Dati numarul pe care doriti sa-l cercetati: ";
+    cin>>n;
+    cout<<"Patratele care formeaza numarul n: "<<"\n";
+   verificare(n);
     return 0;
 }
