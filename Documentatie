@@ -24,8 +24,7 @@ folosesc mediul de dezvoltare Docker, ceea ce îmi oferă un avantaj în momentu
 
 Programul a fost realizat în limbajul C++ și testează dacă un număr natural poate fi suma a două numere pătrate diferite de 0. Testarea se efectuează printr-o funcție
 vidă, care primește parametri din funcția main a programului și utilizează două bucle for ce vor incrementa valorile contoarelor i si j, atât timp cât acestea au valori
-mai mici ca numărul cercetat, le va ridica la pătrat și
-verifică dacă suma acestora este egala cu numărul dat. Un alt contor denumit ok, inițial setat la 0, va primi valoarea 1 dacă s-a găsit suma a două patrate. În caz
+mai mici ca numărul cercetat, le va ridica la pătrat și verifică dacă suma acestora este egala cu numărul dat. Un alt contor denumit ok, inițial setat la 0, va primi valoarea 1 dacă s-a găsit suma a două patrate. În caz
 contrar, ok ramâne pe 0 și compilatorul ne anunță că rezultatele nu au fost găsite.
 
 Ca exemple de rulare am utilizat două numere: 1289 și 3000. În primul caz programul primește numărul 1289 ca parametru și parcurge pașii din funcția ”verificare” pentru
