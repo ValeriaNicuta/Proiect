@@ -6,21 +6,33 @@ Cadrul didactic: Bocan Valer
 Tema proiect: Se dă un număr natural N. Să se determine dacă acesta se poate descompune în sumă de două pătrate diferite de zero.
 Limbaj de programare utilizat: C++
 
-Proiectul a fost realizat in cadrul platformei Visual Studio Code, unde am scris si am testat functionalitatea programului. Fisierele sursa ale programului sunt incarcate pe site-ul GitHub, alaturi de documentatie, iar pentru compilarea si rularea proiectului respectiv am utilizat platforma Docker.
+Proiectul a fost realizat in cadrul platformei Visual Studio Code, unde am scris si am testat functionalitatea programului. Fisierele sursa ale programului sunt
+incarcate pe site-ul GitHub, alaturi de documentatie, iar pentru compilarea si rularea proiectului respectiv am utilizat platforma Docker.
 
-Docker este o platforma deschisa pentru dezvoltarea, livrarea si rularea aplicatiilor. Acesta permite separarea aplicatiilor de infrastructura cu scopul de a crea o livrare rapida de software. Profitand de metodologiile Docker pentru expedierea, testarea si implementarea rapida a codului, se reduce semnificativ intarzierea dintre scrierea codului si rularea acestuia in productie. 
+Docker este o platforma deschisa pentru dezvoltarea, livrarea si rularea aplicatiilor. Acesta permite separarea aplicatiilor de infrastructura cu scopul de a crea o
+livrare rapida de software. Profitand de metodologiile Docker pentru expedierea, testarea si implementarea rapida a codului, se reduce semnificativ intarzierea dintre
+scrierea codului si rularea acestuia in productie. 
 
-Docker functioneaza prin impachetarea, furnizarea si rularea containerelor. Tehnologia containerului este disponibila prin sistemul de operare: un container impacheteaza serviciul sau functia aplicatiei cu toate bibliotecile, fisierele de configurare, dependentele si alte parti si parametri necesari pentru functionare. Fiecare container partajeaza serviciile unui sistem de operare subiacent. Imaginile Docker contin toate dependentele necesare pentru a executa codul in interiorul unui container, astfel incat containerele care se deplaseaza intre mediile Docker cu acelasi sistem de operare functioneaza fara modificari.
+Docker functioneaza prin impachetarea, furnizarea si rularea containerelor. Tehnologia containerului este disponibila prin sistemul de operare: un container
+impacheteaza serviciul sau functia aplicatiei cu toate bibliotecile, fisierele de configurare, dependentele si alte parti si parametri necesari pentru functionare.
+Fiecare container partajeaza serviciile unui sistem de operare subiacent. Imaginile Docker contin toate dependentele necesare pentru a executa codul in interiorul unui
+container, astfel incat containerele care se deplaseaza intre mediile Docker cu acelasi sistem de operare functioneaza fara modificari.
 
-Dat fiind faptul ca sistemul de containere Docker este extrem de popular in industria programarii, am realizat acest proiect cu scopul de a ma obisnui cu construirea containerelor, compilarea si rularea programelor scrise utilizand aceasta platforma. M-a motivat faptul ca, in timpul prezent, un numar considerabil de companii folosesc mediul de dezvoltare Docker, ceea ce imi ofera un avantaj in momentul angajarii la un job.
+Dat fiind faptul ca sistemul de containere Docker este extrem de popular in industria programarii, am realizat acest proiect cu scopul de a ma obisnui cu construirea
+containerelor, compilarea si rularea programelor scrise utilizand aceasta platforma. M-a motivat faptul ca, in timpul prezent, un numar considerabil de companii
+folosesc mediul de dezvoltare Docker, ceea ce imi ofera un avantaj in momentul angajarii la un job.
 
-Programul a fost realizat in limbajul C++ si testeaza daca un numar natural poate fi suma a doua numere patrate diferite de 0. Testarea se efectueaza printr-o functie vida, care primeste parametri din functia main a programului si utilizeaza doua bucle for ce vor incrementa valorile contoarelor i si j, le va ridica la patrat si verifica daca suma acestora este egala cu numarul dat. Un alt contor denumit ok, initial setat la 0, va primi valoarea 1 daca s-a gasit suma a doua patrate. In caz contrar, ok ramane pe 0 si compilatorul ne anunta ca rezultatele nu au fost gasite.
+Programul a fost realizat in limbajul C++ si testeaza daca un numar natural poate fi suma a doua numere patrate diferite de 0. Testarea se efectueaza printr-o functie
+vida, care primeste parametri din functia main a programului si utilizeaza doua bucle for ce vor incrementa valorile contoarelor i si j, le va ridica la patrat si
+verifica daca suma acestora este egala cu numarul dat. Un alt contor denumit ok, initial setat la 0, va primi valoarea 1 daca s-a gasit suma a doua patrate. In caz
+contrar, ok ramane pe 0 si compilatorul ne anunta ca rezultatele nu au fost gasite.
 
-Ca exemple de rulare am utilizat doua numere: 1289 si 3000. In primul caz programul primeste numarul 1289 ca parametru si parcurge pasii din functia verificare pentru a ne afisa numerele 8 si 64 care, ridicate la patrat si insumate, rezulta in numarul 1289. In al doilea caz programul va primi numarul 3000. In urma verificarii, programul nu va gasi patrate ce formeaza numarul dat, iar compilatorul ne afiseaza un mesaj care ne comunica faptul ca numarul dat nu constituie suma a doua patrate.
+Ca exemple de rulare am utilizat doua numere: 1289 si 3000. In primul caz programul primeste numarul 1289 ca parametru si parcurge pasii din functia verificare pentru
+a ne afisa numerele 8 si 64 care, ridicate la patrat si insumate, rezulta in numarul 1289. In al doilea caz programul va primi numarul 3000. In urma verificarii,
+programul nu va gasi patrate ce formeaza numarul dat, iar compilatorul ne afiseaza un mesaj care ne comunica faptul ca numarul dat nu constituie suma a doua patrate.
 
                                                                             Bibliografie
 https://docs.docker.com/get-started/overview/
 https://www.techtarget.com/searchitoperations/definition/Docker
 https://www.boxpiper.com/posts/what-is-docker   
 https://adding.info/TwoSquareNumbersMake/What-Two-Square-Numbers-Make-Calculator.html                                                            
-
