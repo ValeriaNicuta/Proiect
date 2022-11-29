@@ -1,5 +1,0 @@
-FROM gcc:latest
-WORKDIR /usr/src/myapp
-COPY SumaPatrate.cpp .
-RUN gcc -o myapp SumaPatrate.cpp -lstdc++
-CMD ["./proiect"]
