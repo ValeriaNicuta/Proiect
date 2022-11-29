@@ -3,11 +3,11 @@
 Realizat: Nicuța Valeria, INFO an 2
 <br>Cadrul didactic: Bocan Valer</br>
 
-<br>Tema proiect: Se dă un număr natural N. Să se determine dacă acesta se poate descompune în sumă de două pătrate diferite de zero.
-Limbaj de programare utilizat: C++</br>
+<br>Tema proiect: Se dă un număr natural N. Să se determine dacă acesta se poate descompune în sumă de două pătrate diferite de zero.</br>
+Limbaj de programare utilizat: C++
 
-Proiectul a fost realizat în cadrul platformei Visual Studio Code, unde am scris și am testat funcționalitatea programului. Fișierele sursă ale programului sunt
-încarcate pe site-ul GitHub, alături de documentație, iar pentru compilarea și rularea proiectului respectiv am utilizat platforma Docker.
+Proiectul a fost realizat în cadrul platformei ***Visual Studio Code***, unde am scris și am testat funcționalitatea programului. Fișierele sursă ale programului sunt
+încarcate pe site-ul ***GitHub***, alături de documentație, iar pentru compilarea și rularea proiectului respectiv am utilizat platforma ***Docker***.
 
 ***Docker*** este o platformă deschisă pentru dezvoltarea, livrarea și rularea aplicațiilor. Acesta permite separarea aplicațiilor de infrastructură cu scopul de a crea o
 livrare rapidă de software. Profitând de metodologiile Docker pentru expedierea, testarea și implementarea rapidă a codului, se reduce semnificativ întarzierea dintre
