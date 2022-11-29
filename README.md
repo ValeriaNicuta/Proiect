@@ -1,15 +1,15 @@
-<h2 align="center">Proiect la disciplina</h2>
-<h2 align="center">Metode Avansate de Programare</h2>
+<h2 align="center">Proiect la disciplina
+<br>Metode Avansate de Programare</br></h2>
 Realizat: Nicuța Valeria, INFO an 2
-Cadrul didactic: Bocan Valer
+<br>Cadrul didactic: Bocan Valer</br>
 
-Tema proiect: Se dă un număr natural N. Să se determine dacă acesta se poate descompune în sumă de două pătrate diferite de zero.
-Limbaj de programare utilizat: C++
+<br>Tema proiect: Se dă un număr natural N. Să se determine dacă acesta se poate descompune în sumă de două pătrate diferite de zero.
+Limbaj de programare utilizat: C++</br>
 
 Proiectul a fost realizat în cadrul platformei Visual Studio Code, unde am scris și am testat funcționalitatea programului. Fișierele sursă ale programului sunt
 încarcate pe site-ul GitHub, alături de documentație, iar pentru compilarea și rularea proiectului respectiv am utilizat platforma Docker.
 
-Docker este o platformă deschisă pentru dezvoltarea, livrarea și rularea aplicațiilor. Acesta permite separarea aplicațiilor de infrastructură cu scopul de a crea o
+***Docker*** este o platformă deschisă pentru dezvoltarea, livrarea și rularea aplicațiilor. Acesta permite separarea aplicațiilor de infrastructură cu scopul de a crea o
 livrare rapidă de software. Profitând de metodologiile Docker pentru expedierea, testarea și implementarea rapidă a codului, se reduce semnificativ întarzierea dintre
 scrierea codului și rularea acestuia în producție. 
 
@@ -32,7 +32,7 @@ pentru a ne afișa numerele 8 și 64 care, ridicate la pătrat și însumate, re
 verificării, programul nu va găsi pătrate ce formează numărul dat, iar compilatorul ne afișeaza un mesaj care ne comunică faptul că numărul dat nu constituie suma a
 două pătrate.
 #                                                                            Bibliografie
-https://docs.docker.com/get-started/overview/
-https://www.techtarget.com/searchitoperations/definition/Docker
-https://www.boxpiper.com/posts/what-is-docker   
-https://adding.info/TwoSquareNumbersMake/What-Two-Square-Numbers-Make-Calculator.html  
+* https://docs.docker.com/get-started/overview/
+* https://www.techtarget.com/searchitoperations/definition/Docker
+* https://www.boxpiper.com/posts/what-is-docker   
+* https://adding.info/TwoSquareNumbersMake/What-Two-Square-Numbers-Make-Calculator.html  
